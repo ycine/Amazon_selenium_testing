@@ -1,10 +1,12 @@
 from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver import ActionChains
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+
+# from selenium.webdriver.support.wait import WebDriverWait
+# from selenium.webdriver.firefox.options import Options
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver import ActionChains
+# from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # PONIZEJ TO DO DODANIA ROZSZERZENIA DO OKNA
 # chrome_options = Options()
@@ -22,7 +24,9 @@ class Amazon_base_page:
         # self.options = Options()
         # self.options.headless = True
         # self.options(self.xchro)  
-        self.driver = webdriver.Firefox()
+        self.options = Options()
+        self.options.binary_location = r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'
+        self.driver = webdriver.Firefox(options=self.options)
         # self.driver.add_extension(self.xchro, temporary=True)
         
 

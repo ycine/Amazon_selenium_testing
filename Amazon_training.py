@@ -16,8 +16,8 @@ class Amazon_training(Amazon_learn):
 
     def move_to_training(self):
         to_training = WebDriverWait(self.driver, 55).until(EC.element_to_be_clickable((By.XPATH,
-        "/html/body/header/div[1]/div[2]/div[5]/div[1]/div/div[3]/div[1]/a"))).click()
-
+        "//a[contains(text(),'Find AWS Training »')]"))).click()
+        
         print('Sukces - Amazon training - move to training')
 
     def explore_digital_training(self):
@@ -36,7 +36,7 @@ class Amazon_training(Amazon_learn):
 
     def aws_cloud_practitoner_essentials(self):
         to_aws_cloud_practiioner_essentials = WebDriverWait(self.driver, 55).until(EC.element_to_be_clickable((By.XPATH,
-        "/html/body/div[2]/main/div[9]/div/div/div[2]/div/div[1]/div/a"))).click()
+        "//a[contains(text(),'AWS Cloud Practitioner Essentials')]"))).click()
 
         print('Sukces - Amazon training -  aws cloud practitioner essentials')  
 
