@@ -1,7 +1,10 @@
 ###Amazon AWS automated testing tool
-![Markdown Logo]
-(https://www.google.com/imgres?imgurl=https%3A%2F%2Fa0.awsstatic.com%2Flibra-css%2Fimages%2Flogos%2Faws_logo_smile_1200x630.png&imgrefurl=https%3A%2F%2Faws.amazon.com%2F&tbnid=C0-Qy9ehSkUHYM&vet=12ahUKEwiG7frlr6P7AhXK6CoKHQbBCyAQMygAegUIARDgAQ..i&docid=DQFYE7-PMXDa7M&w=1200&h=630&itg=1&q=AWS&client=firefox-b-d&ved=2ahUKEwiG7frlr6P7AhXK6CoKHQbBCyAQMygAegUIARDgAQ)
 
+![]
+(https://www.google.com/imgres?imgurl=https%3A%2F%2Fa0.awsstatic.com%2Flibra-css%2Fimages%2Flogos%2Faws_logo_smile_1200x630.png&imgrefurl=https%3A%2F%2Faws.amazon.com%2F&tbnid=C0-Qy9ehSkUHYM&vet=12ahUKEwiG7frlr6P7AhXK6CoKHQbBCyAQMygAegUIARDgAQ..i&docid=DQFYE7-PMXDa7M&w=1200&h=630&itg=1&q=AWS&client=firefox-b-d&ved=2ahUKEwiG7frlr6P7AhXK6CoKHQbBCyAQMygAegUIARDgAQ =250x250)
+
+
+![](https://www.freeiconspng.com/img/41459)
 It is a bot / testing tool for Amazon AWS service:
 (https://aws.amazon.com/)
 
