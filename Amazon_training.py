@@ -27,6 +27,15 @@ class Amazon_training(Amazon_learn):
         print('Sukces - Amazon training -  explore digital training  ')
 
 
+    def close_cookies_tab(self):
+        to_explore_digital_training = WebDriverWait(self.driver, 55).until(EC.element_to_be_clickable((By.XPATH,
+        "//body[@class='awsm']/div[@id='awsccc-sb-ux-c']/div[@id='awsccc-sb-a']/div[@data-id='awsccc-cb']/div[@id='awsccc-cb-c']/div[@id='awsccc-cb-content']/div[@id='awsccc-cb-actions']/div[@id='awsccc-cb-buttons']/button[2]"))).click()
+
+        print('Sukces - Amazon training -  close_cookies_tab')
+
+
+
+
     def free_learn_content(self):
         to_free_learn_content = WebDriverWait(self.driver, 55).until(EC.element_to_be_clickable((By.XPATH,
         "/html/body/div[2]/main/div[1]/div/div/div[2]/div/div/div/div[1]/div/div[3]/div/div/a"))).click()
